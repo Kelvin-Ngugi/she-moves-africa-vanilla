@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Moves Africa - Empowering African Women Through Stories</title>
+    <meta name="description" content="She Moves Africa empowers African women through film, fitness, and community building. Join our movement for healing, joy, and power.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>🎬 Watch "With Grace" - Our latest documentary premiering globally! <a href="#films">Learn More</a></p>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="She Moves Africa Logo" class="logo">
+                    <span class="logo-text">She Moves Africa</span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#films" class="nav-link">Films</a></li>
+                    <li><a href="#fitness" class="nav-link">Fitness</a></li>
+                    <li><a href="#hubs-impact" class="nav-link">Hubs & Impact</a></li>
+                    <li><a href="#collaborate" class="nav-link">Collaborate</a></li>
+                    <li><a href="#press" class="nav-link">Press</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-overlay"></div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Our Story is Your Story</h1>
+                    <p class="hero-subtitle">She Moves was born from a one woman's whisper and now turned into a community's embrace. At our core is a belief that women are strongest when they rise for each other.</p>
+                    <div class="hero-buttons">
+                        <a href="#collaborate" class="btn btn-primary">Join Us Today</a>
+                        <a href="#about" class="btn btn-secondary">Learn Our Story</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Community Stories Carousel -->
+            <div class="carousel-section">
+                <h2 class="section-title">Community & Stories</h2>
+                <div class="carousel" id="community-carousel">
+                    <div class="carousel-item active">
+                        <img src="images/community-screening.webp" alt="Intergenerational Moments">
+                        <div class="carousel-content">
+                            <h3>Intergenerational Moments</h3>
+                            <p>Women in circles, sharing work, joy, and wisdom across generations.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/team-building.webp" alt="Sisterhood Support">
+                        <div class="carousel-content">
+                            <h3>Sisterhood Support Networks</h3>
+                            <p>Building strong bonds between women through shared experiences, mentorship, and collective healing.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/school-girls.webp" alt="Youth Leadership">
+                        <div class="carousel-content">
+                            <h3>Youth Leadership & Mentorship</h3>
+                            <p>Walking with girls, empowering them to become leaders and changemakers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" onclick="previousSlide('community-carousel')">‹</button>
+                    <button class="carousel-btn next" onclick="nextSlide('community-carousel')">›</button>
+                </div>
+            </div>
+            
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <h2>Every Story Matters. Every Voice Counts.</h2>
+                <p>Join thousands of African women and girls who are creating positive change in their communities through sisterhood, storytelling, and collective action.</p>
+                <div class="cta-buttons">
+                    <a href="#collaborate" class="btn btn-primary">Join Us Today</a>
+                    <a href="#about" class="btn btn-outline">Learn Our Story</a>
+                </div>
+            </div>
+            
+            <!-- Impact Stats -->
+            <div class="stats-section">
+                <h2>Our Growing Impact</h2>
+                <p>Building stronger communities one story, one connection, one woman at a time.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Women & Girls Empowered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Community Screenings</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Community Hubs</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Story is Your Story</h2>
+                    <p class="section-subtitle">She Moves was born from a one woman's whisper and now turned into a community's embrace. At our core is a belief that women are strongest when they rise for each other.</p>
+                </div>
+                
+                <!-- Our Why -->
+                <div class="two-column">
+                    <div class="column">
+                        <h3>Our Why: Healing, Joy, Power</h3>
+                        <p>In every corner of Africa, there are women carrying dreams bigger than their circumstances, girls with visions that could reshape continents, and communities waiting for the spark that ignites transformation.</p>
+                        <p>We exist because we believe in the power of African women. We believe in healing that happens in circles, joy that multiplies when shared, and power that emerges when sisters stand together.</p>
+                        <p>Our why is simple: because every African woman deserves to see herself reflected in stories of strength, to feel held by a community that understands her journey, and to know that her voice can move mountains.</p>
+                        <a href="#collaborate" class="btn btn-primary">Join Our Movement</a>
+                    </div>
+                    <div class="column">
+                        <img src="images/community-screening.webp" alt="Community Gathering" class="about-image">
+                    </div>
+                </div>
+                
+                <!-- Journey Timeline -->
+                <div class="timeline-section">
+                    <h3>Our Journey: From Whisper to Movement</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2020</div>
+                            <h4>The Whisper</h4>
+                            <p>A single voice speaking truth about African women's experiences, starting conversations that would spark a movement.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2022</div>
+                            <h4>The Circle</h4>
+                            <p>First community gatherings form, creating safe spaces for women to share stories, heal together, and build sisterhood.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024</div>
+                            <h4>The Movement</h4>
+                            <p>Hundreds of women across multiple countries unite, creating lasting change through films, wellness, and community action.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Founder Section -->
+                <div class="founder-section">
+                    <div class="two-column">
+                        <div class="column">
+                            <img src="images/dina-founder.jpg" alt="Dina Muthama - Founder" class="founder-image">
+                        </div>
+                        <div class="column">
+                            <h3>Meet Our Founder: Dina Muthama</h3>
+                            <p>An award-winning Producer and Showrunner with over 20 years of experience creating impact-driven content across East Africa. Known for bold storytelling that blends entertainment with social change, her work includes Makutano Junction, Shamba Chef, The Know Zone, and Faithless.</p>
+                            <p>Dina is also a passionate mentor, shaping the next generation of African filmmakers through hands-on apprenticeship and advocacy.</p>
+                            <blockquote>"When women come together in truth and vulnerability, magic happens. We heal not just ourselves, but our communities, our daughters, and generations to come." - Dina Muthama</blockquote>
+                            <div class="founder-buttons">
+                                <a href="#films" class="btn btn-primary">Learn About Our Films</a>
+                                <a href="#contact" class="btn btn-outline">Connect with Dina</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Section -->
+                <div class="team-section">
+                    <h3>Meet Our Team: Visionaries & Storytellers</h3>
+                    <p>Our team brings together decades of experience in African cinema, united by a shared commitment to authentic storytelling and social impact.</p>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="images/janet-chumbe.png" alt="Caroline Odongo">
+                            <h4>Caroline Odongo</h4>
+                            <p class="role">Director</p>
+                            <p>A seasoned stage, film, and television director with over 30 years of experience. Awarded Best TV Director at the 2021 Women in Film Awards.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="images/janet-chumbe.png" alt="Janet Chumbe">
+                            <h4>Janet Chumbe</h4>
+                            <p class="role">Director</p>
+                            <p>A dynamic Director, Writer, and Producer known for her bold, story-driven artistry across African cinema.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="images/clare-marie.png" alt="Clare Marie">
+                            <h4>Clare Marie</h4>
+                            <p class="role">Production Designer</p>
+                            <p>A Nairobi-based Art Director who brings directors' visions to life through colour, shape, and design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Films Section -->
+        <section id="films" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Films</h2>
+                    <p class="section-subtitle">She Moves Africa Films produces bold, emotional, and socially conscious stories by and about African women. Because art is a powerful tool for change, a unique way to bring people together.</p>
+                </div>
+                
+                <!-- Main Film: With Grace -->
+                <div class="featured-film">
+                    <div class="two-column">
+                        <div class="column">
+                            <h3>With Grace</h3>
+                            <p>A 30-minute short documentary following Grace, a witty 13-year-old girl in rural Kenya. Through her story, we see the real effects of climate change on families and girls at the frontlines of climate injustice. Told with warmth and humor, the film is a catalyst for action on gender and climate justice.</p>
+                            <a href="#" class="btn btn-primary">Watch Trailer</a>
+                        </div>
+                        <div class="column">
+                            <img src="images/with-grace-documentary.jpg" alt="With Grace Documentary" class="film-image">
+                        </div>
+                    </div>
+                    
+                    <!-- Film Highlights -->
+                    <div class="film-highlights">
+                        <h4>Film Highlights</h4>
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <h5>Premiered at IDFA (Netherlands)</h5>
+                            </div>
+                            <div class="highlight-item">
+                                <h5>Winner of the Children's Jury Award – One World Festival</h5>
+                            </div>
+                            <div class="highlight-item">
+                                <h5>Broadcast on BBC iPlayer (UK)</h5>
+                            </div>
+                            <div class="highlight-item">
+                                <h5>Selected by festivals in Australia, Greece, Slovakia & Norway</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Film Impact -->
+                    <div class="film-impact">
+                        <h4>Film for Impact</h4>
+                        <div class="impact-grid">
+                            <div class="impact-item">
+                                <h5>Amplifies Girls' Voices</h5>
+                                <p>The film shows the strength, dreams, and lived experiences of girls facing the climate crisis head-on, creating visibility and agency.</p>
+                            </div>
+                            <div class="impact-item">
+                                <h5>Mobilizes Community Awareness</h5>
+                                <p>Through culturally relevant, community-led screenings, we use storytelling to start REAL conversations about climate injustice and its impact on children.</p>
+                            </div>
+                            <div class="impact-item">
+                                <h5>Encourages Action</h5>
+                                <p>We bring people together to talk, learn, and act—especially in the places most affected by climate change—while activating direct resources to girls and families.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Other Films Portfolio -->
+                <div class="films-portfolio">
+                    <h3>Our Portfolio</h3>
+                    <div class="films-grid">
+                        <div class="film-card">
+                            <img src="images/makutano-junction.jpg" alt="Makutano Junction">
+                            <h4>Makutano Junction</h4>
+                            <p>A 15-season drama tackling themes like health, finance, agriculture, and gender.</p>
+                        </div>
+                        <div class="film-card">
+                            <img src="images/shamba-chef.png" alt="Shamba Chef">
+                            <h4>Shamba Chef</h4>
+                            <p>A reality cooking show promoting clean energy and nutrition for young families.</p>
+                        </div>
+                        <div class="film-card">
+                            <img src="images/women-in-film.jpg" alt="IPAS Safe Abortion Documentary">
+                            <h4>IPAS Safe Abortion Documentary</h4>
+                            <p>Bold, advocacy-driven storytelling exploring African policy systems through real-life cases.</p>
+                        </div>
+                        <div class="film-card">
+                            <img src="images/school-girls.jpg" alt="The Know Zone">
+                            <h4>The Know Zone</h4>
+                            <p>A children's magazine-style edutainment series aligned with school curriculum in Kenya & Rwanda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fitness Section -->
+        <section id="fitness" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">She Moves Fitness</h2>
+                    <p class="section-subtitle">A fitness practice to inspire change in Women's lives through HEALTH and FITNESS through movement, Pamoja! It's not about shrinking. It's about returning to self.</p>
+                </div>
+                
+                <div class="fitness-offerings">
+                    <h3>What We Offer</h3>
+                    <div class="offerings-grid">
+                        <div class="offering-card">
+                            <img src="images/women-in-film.jpg" alt="Group Fitness">
+                            <div class="card-content">
+                                <h4>Group Fitness & Activities</h4>
+                                <p>Join group fitness and active activities in Nairobi and other cities. We walk, we stretch, we breathe, we listen.</p>
+                            </div>
+                        </div>
+                        <div class="offering-card">
+                            <img src="images/community-work.jpg" alt="Guided Movement">
+                            <div class="card-content">
+                                <h4>Guided Movement Sessions</h4>
+                                <p>Participate in our guided movement sessions and workouts designed to build strength and joy.</p>
+                            </div>
+                        </div>
+                        <div class="offering-card">
+                            <img src="images/community-screening.jpg" alt="Wellness Circles">
+                            <div class="card-content">
+                                <h4>Restorative Wellness Circles</h4>
+                                <p>Our fitness practice is about returning to self. Join our restorative wellness circles to reconnect with your mind and body.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fitness-cta">
+                    <h3>Join the Movement</h3>
+                    <p>Ready to start your journey of wellness and self-discovery? Connect with us to learn more about our upcoming events and sessions.</p>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hubs & Impact Section -->
+        <section id="hubs-impact" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Hubs & Impact</h2>
+                    <p class="section-subtitle">Creating safe spaces for growth, collaboration, and community-led change across Kenya.</p>
+                </div>
+                
+                <div class="impact-areas">
+                    <h3>Our Impact Areas</h3>
+                    <p>We create meaningful change through focused community initiatives across multiple areas.</p>
+                    <div class="impact-grid">
+                        <div class="impact-card">
+                            <img src="images/community-work.jpg" alt="Community Healing Circles">
+                            <div class="card-content">
+                                <h4>Community Healing Circles</h4>
+                                <p>Safe spaces for women to gather, share stories, heal together, and build lifelong sisterhoods.</p>
+                            </div>
+                        </div>
+                        <div class="impact-card">
+                            <img src="images/community-work.jpg" alt="Environmental Action">
+                            <div class="card-content">
+                                <h4>Environmental Action</h4>
+                                <p>Working with communities in Mutomo and beyond to plant trees and create sustainable futures.</p>
+                            </div>
+                        </div>
+                        <div class="impact-card">
+                            <img src="images/school-girls.jpg" alt="Youth Empowerment">
+                            <div class="card-content">
+                                <h4>Youth Empowerment</h4>
+                                <p>Mentoring and supporting young women in Nairobi and other cities to become leaders and changemakers.</p>
+                            </div>
+                        </div>
+                        <div class="impact-card">
+                            <img src="images/community-screening.jpg" alt="Film Screening Programs">
+                            <div class="card-content">
+                                <h4>Film Screening Programs</h4>
+                                <p>Bringing important conversations about climate change and social justice to communities through film.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="impact-metrics">
+                    <div class="two-column">
+                        <div class="column">
+                            <img src="images/community-work.jpg" alt="Community Impact" class="impact-image">
+                        </div>
+                        <div class="column">
+                            <h3>Measuring Our Impact</h3>
+                            <p>We measure our success by the real-world changes our community creates. From increased access to education and healthcare to new women-led businesses, our impact is growing.</p>
+                            <p>Our goal is to build sustainable, self-sufficient hubs that empower women to become leaders and changemakers in their own communities.</p>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <span class="metric-number">500+</span>
+                                    <span class="metric-label">Women Empowered</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-number">3</span>
+                                    <span class="metric-label">Active Hubs</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-number">95%</span>
+                                    <span class="metric-label">Community Satisfaction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collaborate Section -->
+        <section id="collaborate" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Collaborate With Us</h2>
+                    <p class="section-subtitle">Join our movement to empower African women and girls through meaningful partnerships.</p>
+                </div>
+                
+                <div class="collaboration-ways">
+                    <h3>How You Can Get Involved</h3>
+                    <p>We welcome collaborators from all backgrounds who share our passion for change.</p>
+                    <div class="ways-grid">
+                        <div class="way-card">
+                            <div class="way-icon">🤝</div>
+                            <h4>Partner With Us</h4>
+                            <p>Collaborate with us on projects, events, and initiatives that align with our mission.</p>
+                            <a href="#contact" class="btn btn-outline">Learn More</a>
+                        </div>
+                        <div class="way-card">
+                            <div class="way-icon">💡</div>
+                            <h4>Become a Mentor</h4>
+                            <p>Share your expertise and guide the next generation of female leaders in Kenya.</p>
+                            <a href="#contact" class="btn btn-outline">Learn More</a>
+                        </div>
+                        <div class="way-card">
+                            <div class="way-icon">🎤</div>
+                            <h4>Share Your Story</h4>
+                            <p>Amplify your voice and inspire others by sharing your personal journey and experiences.</p>
+                            <a href="#contact" class="btn btn-outline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="partnership-info">
+                    <div class="two-column">
+                        <div class="column">
+                            <img src="images/women-in-film.jpg" alt="Partnership" class="partnership-image">
+                        </div>
+                        <div class="column">
+                            <h3>Why Partner With She Moves Africa?</h3>
+                            <p>Our partners are essential to our success. By joining forces, we can create a greater impact and reach more communities across Kenya and beyond.</p>
+                            <p>We offer our partners a unique opportunity to connect with a passionate community, support meaningful projects, and contribute to a more equitable future for African women.</p>
+                            <a href="#contact" class="btn btn-primary">Become a Partner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Press Section -->
+        <section id="press" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">As Seen On</h2>
+                    <p class="section-subtitle">She Moves Africa is making headlines. Discover our stories and features from leading publications around the world.</p>
+                </div>
+                
+                <div class="press-mentions">
+                    <div class="press-grid">
+                        <div class="press-card">
+                            <img src="images/with-grace-documentary.jpg" alt="BBC Feature">
+                            <div class="card-content">
+                                <p class="press-source">BBC News - October 2023</p>
+                                <h4>BBC Feature: The Story of "With Grace" documentary</h4>
+                                <p>A powerful documentary showcasing resilience and hope, screened at IDFA and featured by BBC, bringing African stories to global audiences.</p>
+                                <a href="#" class="btn btn-outline">Read Full Article</a>
+                            </div>
+                        </div>
+                        <!-- Add more press mentions as needed -->
+                    </div>
+                </div>
+                
+                <div class="press-contact">
+                    <h3>Are You a Journalist or Creator?</h3>
+                    <p>We'd love to share our story with you. For press inquiries, please get in touch.</p>
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Ready to join our movement? We'd love to hear from you.</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="two-column">
+                        <!-- Contact Form -->
+                        <div class="column">
+                            <div class="contact-form-container">
+                                <h3>Send Us a Message</h3>
+                                <form id="contact-form" class="contact-form">
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="firstName">First Name</label>
+                                            <input type="text" id="firstName" name="firstName" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="lastName">Last Name</label>
+                                            <input type="text" id="lastName" name="lastName" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">Subject</label>
+                                        <input type="text" id="subject" name="subject" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea id="message" name="message" rows="6" placeholder="Tell us your story, ask a question, or share how you'd like to get involved..." required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <!-- Contact Information -->
+                        <div class="column">
+                            <h3>Let's Connect</h3>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-details">
+                                        <h4>Email Us</h4>
+                                        <p>hello@shemovesafrica.org</p>
+                                        <p>collaborations@shemovesafrica.org</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-details">
+                                        <h4>Call Us</h4>
+                                        <p>+254 700 123 456</p>
+                                        <p class="contact-note">Available Mon-Fri, 9AM-5PM EAT</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-details">
+                                        <h4>Visit Us</h4>
+                                        <p>Nairobi Hub</p>
+                                        <p>Kilimani, Nairobi, Kenya</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Community Image -->
+                            <div class="community-image">
+                                <img src="images/community-work.jpg" alt="Community Gathering">
+                                <div class="image-overlay">
+                                    <h4>Join Our Community</h4>
+                                    <p>Every voice matters in our movement</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="faq-section">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <h4>How can I get involved with She Moves Africa?</h4>
+                            <p>There are many ways to get involved! You can join our wellness programs, participate in our community events, volunteer as a mentor, or partner with us on projects. Contact us to learn more about current opportunities.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Do you have programs outside of Kenya?</h4>
+                            <p>Currently, our physical hubs are located in Kenya, but we welcome women from across Africa to join our online community and participate in virtual events and programs.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>How can organizations partner with you?</h4>
+                            <p>We welcome partnerships with organizations that align with our mission. Contact us at collaborations@shemovesafrica.org to discuss potential partnership opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="She Moves Africa Logo">
+                        <span>She Moves Africa</span>
+                    </div>
+                    <p>Empowering African women through stories, wellness, and community.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#films">Films</a></li>
+                        <li><a href="#fitness">Fitness</a></li>
+                        <li><a href="#collaborate">Collaborate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>hello@shemovesafrica.org</p>
+                    <p>+254 700 123 456</p>
+                    <p>Nairobi, Kenya</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 She Moves Africa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

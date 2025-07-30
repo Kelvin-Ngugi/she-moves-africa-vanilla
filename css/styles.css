@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ffdd57;
+}
+
+.hero-section {
+    padding: 3rem 0;
+    text-align: center;
+    background: url('../images/community-screening.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.section {
+    padding: 3rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.card-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffdd57;
+    color: #333;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #e6c54f;
+}
